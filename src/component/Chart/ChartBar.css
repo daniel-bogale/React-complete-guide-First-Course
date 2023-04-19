@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: calc(1vw + 7px);
 }
 
 .chart-bar__inner {
@@ -20,7 +21,7 @@
 .chart-bar__fill {
     background-color: #4826b9;
     width: 100%;
-    transition: all 0.3s ease-out;
+    transition: all 0.35s ease-out;
 }
 
 .chart-bar__label {
